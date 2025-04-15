@@ -9,7 +9,7 @@ import EnhancedOutVar from '/docs/continuous-integration/shared/enhanced-output-
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-[Test Intelligence](/docs/continuous-integration/use-ci/run-tests/ti-overview.md) accelerates your test cycles without compromising quality, by running only the unit tests that are relevant to the code changes that triggered the build. Rather than running all test, all the time Instead of always running all unit tests, Harness automatically skips unneeded tests, speeding up your builds. You can also configure Harness TI to automatically split tests and run them in parallel.
+[Test Intelligence](/docs/continuous-integration/use-ci/run-tests/ti-overview.md) accelerates your test cycles without compromising quality by running only the unit tests that are relevant to the code changes that triggered the build. Instead of always running all unit tests, Harness automatically skips unneeded tests, speeding up your builds. You can also configure Harness TI to automatically split tests and run them in parallel.
 
 You can use this **Test Intelligence** step, also known as the **Test** step, to run unit tests with **Python**, **Ruby**, **Java** , **C#** , **Scala** and **Kotlin** programming languages.
 
@@ -193,7 +193,7 @@ Variable values can be [fixed values, runtime inputs, or expressions](/docs/plat
 
 ### Parallelism (Test Splitting)
 
-To enable parallelism (test splitting) in a **Test** step, specify the number of parallel workloads to divide the tests into. These workloades will be executed in parallel steps. 
+To enable parallelism (test splitting) in a **Test** step, specify the number of parallel workloads to divide the tests into. These workloads will be executed in parallel steps. 
 
 :::note
 
